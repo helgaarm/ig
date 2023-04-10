@@ -1,0 +1,51 @@
+[
+  {
+    "id" : "my.id",
+    "type" : "ImplementationGuide",
+    "url" : "http://example.org/ImplementationGuide/my.id",
+    "version" : "0.1.0",
+    "name" : "Hl7NorgeNoBasisAppointment"
+  },
+  {
+    "id" : "no-basis-Appointment-new",
+    "type" : "StructureDefinition",
+    "url" : "http://example.org/StructureDefinition/no-basis-Appointment-new",
+    "version" : "0.1.0",
+    "name" : "NoBasisAppointment"
+  },
+  {
+    "id" : "no-basis-virtual-service",
+    "type" : "StructureDefinition",
+    "url" : "http://example.org/StructureDefinition/no-basis-appointment/no-basis-virtualservice",
+    "version" : "0.1.0",
+    "name" : "NoBasisVirtualService"
+  },
+  {
+    "id" : "no-basis-virtual-service-type-vs",
+    "type" : "ValueSet",
+    "url" : "http://example.org/ValueSet/no-basis-virtual-service-type-vs",
+    "version" : "0.1.0",
+    "name" : "NoBasisVirtualServiceTypeVS"
+  },
+  {
+    "id" : "no-basis-group",
+    "type" : "StructureDefinition",
+    "url" : "https://hl7.no/fhir/structuredefinition/no-basis-appointment/no-basis-group",
+    "version" : "0.1.0",
+    "name" : "NoBasisGroup"
+  },
+  {
+    "id" : "no-basis-partof",
+    "type" : "StructureDefinition",
+    "url" : "https://hl7.no/fhir/structuredefinition/no-basis-appointment/no-basis-partof",
+    "version" : "0.1.0",
+    "name" : "NoBasisPartOf"
+  },
+  {
+    "id" : "no-basis-postponementreason",
+    "type" : "StructureDefinition",
+    "url" : "https://hl7.no/fhir/structuredefinition/no-basis-appointment/no-basis-postponementreason",
+    "version" : "0.1.0",
+    "name" : "NoBasisPostponementReason"
+  }
+]

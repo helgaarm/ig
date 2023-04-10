@@ -1,0 +1,77 @@
+{
+  "resourceType" : "Appointment",
+  "id" : "NoBasisAppointmentExample2",
+  "meta" : {
+    "profile" : ["http://example.org/StructureDefinition/no-basis-Appointment-new"]
+  },
+  "text" : {
+    "status" : "extensions",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Appointment</b><a name=\"NoBasisAppointmentExample2\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Appointment &quot;NoBasisAppointmentExample2&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-no-basis-Appointment-new.html\">no-basis-Appointment</a></p></div><p><b>no-basis-group</b>: true</p><p><b>status</b>: booked</p><p><b>serviceCategory</b>: Mental Health <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (codesystem-service-category#22)</span></p><p><b>serviceType</b>: Psychiatry (Requires Referral) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (codesystem-service-type#141)</span></p><p><b>appointmentType</b>: Poliklinisk konsultasjon/kontakt <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (unknown#3)</span></p><p><b>description</b>: Group session for psychiatric patients</p><p><b>start</b>: 15. apr. 2023, 14:00:00</p><p><b>end</b>: 15. apr. 2023, 15:00:00</p><p><b>minutesDuration</b>: 60</p><p><b>slot</b>: <a href=\"Slot/456\">Slot/456</a></p><p><b>comment</b>: The group session will be focused on helping members develop effective communication skills to improve their relationships and reduce feelings of social isolation. During the session, participants will be encouraged to share their thoughts and feelings openly and respectfully, while also practicing active listening and empathy towards others. The goal of the session is to provide a supportive and non-judgmental environment for members to learn and practice these skills, and to help them feel more confident and connected in their interactions with others.</p><blockquote><p><b>participant</b></p><p><b>actor</b>: <a href=\"Practitioner/789\">Practitioner/789: Dr. Smith</a></p><p><b>required</b>: required</p><p><b>status</b>: accepted</p></blockquote><blockquote><p><b>participant</b></p><p><b>actor</b>: <a href=\"Patient/567\">Patient/567: John Doe</a></p><p><b>required</b>: required</p><p><b>status</b>: accepted</p></blockquote><blockquote><p><b>participant</b></p><p><b>actor</b>: <a href=\"Patient/789\">Patient/789: Jane Smith</a></p><p><b>required</b>: required</p><p><b>status</b>: accepted</p></blockquote><blockquote><p><b>participant</b></p><p><b>actor</b>: <a href=\"Location/psych-ward\">Location/psych-ward: Psychiatric Ward 2B - Good Health Hospital</a></p><p><b>required</b>: required</p><p><b>status</b>: accepted</p></blockquote></div>"
+  },
+  "extension" : [{
+    "url" : "https://hl7.no/fhir/structuredefinition/no-basis-appointment/no-basis-group",
+    "valueBoolean" : true
+  }],
+  "status" : "booked",
+  "serviceCategory" : [{
+    "coding" : [{
+      "system" : "http://hl7.org/fhir/R4/codesystem-service-category",
+      "code" : "22",
+      "display" : "Mental Health"
+    }]
+  }],
+  "serviceType" : [{
+    "coding" : [{
+      "system" : "http://hl7.org/fhir/R4/codesystem-service-type",
+      "code" : "141",
+      "display" : "Psychiatry (Requires Referral)"
+    }]
+  }],
+  "appointmentType" : {
+    "coding" : [{
+      "system" : "urn:oid:2.16.578.1.12.4.1.1.8406",
+      "code" : "3",
+      "display" : "Poliklinisk konsultasjon/kontakt"
+    }]
+  },
+  "description" : "Group session for psychiatric patients",
+  "start" : "2023-04-15T10:00:00-02:00",
+  "end" : "2023-04-15T11:00:00-02:00",
+  "minutesDuration" : 60,
+  "slot" : [{
+    "reference" : "Slot/456"
+  }],
+  "comment" : "The group session will be focused on helping members develop effective communication skills to improve their relationships and reduce feelings of social isolation. During the session, participants will be encouraged to share their thoughts and feelings openly and respectfully, while also practicing active listening and empathy towards others. The goal of the session is to provide a supportive and non-judgmental environment for members to learn and practice these skills, and to help them feel more confident and connected in their interactions with others.",
+  "participant" : [{
+    "actor" : {
+      "reference" : "Practitioner/789",
+      "display" : "Dr. Smith"
+    },
+    "required" : "required",
+    "status" : "accepted"
+  },
+  {
+    "actor" : {
+      "reference" : "Patient/567",
+      "display" : "John Doe"
+    },
+    "required" : "required",
+    "status" : "accepted"
+  },
+  {
+    "actor" : {
+      "reference" : "Patient/789",
+      "display" : "Jane Smith"
+    },
+    "required" : "required",
+    "status" : "accepted"
+  },
+  {
+    "actor" : {
+      "reference" : "Location/psych-ward",
+      "display" : "Psychiatric Ward 2B - Good Health Hospital"
+    },
+    "required" : "required",
+    "status" : "accepted"
+  }]
+}

@@ -1,0 +1,10 @@
+{
+  "url" : "http://example.org/ImplementationGuide/my.id",
+  "name" : "Hl7NorgeNoBasisAppointment",
+  "package-id" : "my.id",
+  "ig-ver" : "0.1.0",
+  "date" : "Mon, 10 Apr, 2023 23:57:59 +0200",
+  "exception" : "Illegal char <:> at index 46: C:\\Users\\arman\\no-basis-appointment\\output\\urn:oid:2.16.578.1.12.4.1.1.8445",
+  "version" : "4.3.0",
+  "tool" : "5.0.0 (3)"
+}
